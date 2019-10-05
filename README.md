@@ -63,6 +63,6 @@ const theme = createMuiTheme({
 
 ### Changing layout
 
-rearrange components or comment that doesn't need.
+rearrange components or comment components that doesn't need.
 
 `.src/Pages/Main.tsx`
