@@ -1,0 +1,10 @@
+:import {
+    -st-from: "../../project.st.css";
+    -st-named: color-text, title, titleUnderline, content;
+}
+
+.root {
+    /* width: 500px; */
+    font-size: 1.8rem;
+    color: value(color-text);
+}

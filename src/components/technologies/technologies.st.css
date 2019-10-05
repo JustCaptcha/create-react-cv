@@ -1,0 +1,31 @@
+@namespace "technologies";
+
+
+:import {
+    -st-from: "../../project.st.css";
+    -st-named: color-text, title, titleUnderline, content;
+}
+
+.root {
+    color: value(color-text);
+}
+
+.tag {
+    /* margin-right: 2rem; */
+    margin-bottom: .4rem;
+}
+
+.stackTitle {
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.tagsGroup {
+    margin: 1rem 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tagsGroup :not(:last-child) {
+    margin-right: .5rem;
+}

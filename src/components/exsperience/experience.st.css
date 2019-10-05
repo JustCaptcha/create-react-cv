@@ -1,0 +1,89 @@
+@namespace "experience";
+
+:import {
+    -st-from: "../../project.st.css";
+    -st-named: color-text, title, titleUnderline, content, color-link;
+}
+
+.root {
+    color: value(color-text);
+}
+
+.contentExp > :not(:last-child) {
+    padding-bottom: 2.5rem;
+    border-bottom: 2px dashed value(color-link);
+}
+
+.job {
+    margin-bottom: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+}
+
+.job > :first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.line2 {
+    display: flex;
+}
+
+.line2 p, .line2 h5 {
+    padding: 0;
+}
+
+.line2 :first-child {
+    margin-right: 1.8rem;
+}
+
+/* 
+.link a {
+    color: value(color-link);
+} */
+
+.date {
+    display: flex;
+    /* align-items: flex-end; */
+}
+
+.date :first-child {
+    align-self: center;
+    margin-right: 1rem;
+}
+
+.date :last-child {
+    align-self: flex-end;
+}
+
+.block {
+}
+
+.block > h4 {
+    font-size: 2.2rem;
+}
+
+.block > h5 {
+    font-size: 1.8rem;
+}
+
+
+.paper {
+    padding: 1rem 1rem;
+    color: value(color-text) !important;
+}
+
+.paper > :not(:last-child) {
+    margin-bottom: .5rem;
+}
+
+.description {
+    margin-top: 1.5rem;
+    grid-column: 1 / -1;
+}
+
+.blockItem1 {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+}

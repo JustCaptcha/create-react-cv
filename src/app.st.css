@@ -1,0 +1,24 @@
+:import {
+  -st-from: "./project.st.css";
+  -st-named: color-secondary, color-link;
+}
+
+.root {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.header {
+  /* -st-extends: Header; */
+  background-color: #222;
+  color: white;
+}
+
+.content {
+  /* -st-extends: Content; */
+  font-size: large;
+}
+/* 
+.link a{
+  color: value(color-link);
+} */

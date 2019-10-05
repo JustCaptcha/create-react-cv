@@ -1,0 +1,29 @@
+@namespace "Page1";
+:import {
+    -st-from: "../project.st.css";
+    -st-named: color-link;
+}
+
+.root {
+
+}
+
+.root a {
+    color: value(color-link) !important;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.summary {
+    grid-row: 0 / 2;
+}
+
+.block > :not(:last-child) {
+    margin-bottom: 3rem;
+}

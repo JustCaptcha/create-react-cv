@@ -1,0 +1,10 @@
+@namespace "content";
+
+:import {
+    -st-from: "../../project.st.css";
+    -st-named: content;
+}
+
+.root {
+    -st-mixin: content;
+}

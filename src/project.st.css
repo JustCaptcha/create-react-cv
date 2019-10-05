@@ -1,0 +1,31 @@
+/* @namespace "Project"; */
+
+:vars {
+    color-primary: #5E81AC;
+    color-secondary: #BF616A;
+    color-text: #4C566A;
+    color-link: #B48EAD;
+}
+
+.title {
+    position: relative;
+    text-transform: uppercase;
+    color: value(color-text);
+}
+
+.titleUnderline {
+    content: '';
+    border-bottom: 3px solid value(color-text);
+    bottom: -1rem;
+    min-width: 100%;
+    height: 3px;
+    position: absolute;
+}
+
+.dividerDashed {
+    border-bottom: 2px dashed value(color-link);
+}
+
+.content {
+    margin-top: 3rem;
+}

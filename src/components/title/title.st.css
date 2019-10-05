@@ -1,0 +1,14 @@
+@namespace "title";
+
+:import {
+    -st-from: "../../project.st.css";
+    -st-named: title, titleUnderline;
+}
+
+.root {
+    -st-mixin: title;
+}
+
+.root::before {
+    -st-mixin: titleUnderline;
+}

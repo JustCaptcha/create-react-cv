@@ -1,0 +1,18 @@
+@namespace "certificates";
+
+:import {
+    -st-from: "../../project.st.css";
+    -st-named: dividerDashed;
+}
+
+.root {
+
+}
+
+.certificates > :not(:last-of-type) {
+    -st-mixin: dividerDashed;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}

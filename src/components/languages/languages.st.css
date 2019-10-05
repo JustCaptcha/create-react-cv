@@ -1,0 +1,36 @@
+@namespace "languages";
+
+:import {
+    -st-from: "../../project.st.css";
+    -st-named: color-text, title, titleUnderline, content;
+}
+
+.root {
+    color: value(color-text);
+}
+
+.contentLang {
+    -st-mixin: content;
+    display: grid;
+    grid-template-rows: min-content;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5rem;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* color: darkblue; */
+}
+
+.language {
+    width: min-content;
+    padding: .5rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: value(color-text) !important;
+}
+
+.divider {
+    width: 1px;
+    margin: 0 .6rem;
+    border-left: 1px solid rgb(194, 194, 194);
+    /* border-left: 1px solid #aaa; */
+}

@@ -1,0 +1,31 @@
+:import {
+    -st-from: "../../project.st.css";
+    -st-named: color-text, color-link;
+}
+
+/* .root a {
+    color: value(color-text);
+} */
+
+.item p {
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.6rem;
+    margin: .5rem;
+    /* color: red; */
+}
+
+.item :first-child{
+    margin-right: .5rem;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

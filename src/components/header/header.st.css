@@ -1,0 +1,39 @@
+.root {
+  /* margin-top: 4rem; */
+  text-align: center;
+  color: #4C566A;
+  /* background-image: linear-gradient(#eee, #332211); */
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  height: 150px;
+  padding: 20px;
+  margin-bottom: 3rem;
+  background-color: #D8DEE9;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 3rem;
+}
+
+.role {
+  font-size: 2rem;
+}
+
+.stylableLogo {
+  height: 80px;
+  width: 55px;
+}
+
+.title {
+  font-size: 1.5em;
+}

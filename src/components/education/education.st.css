@@ -1,0 +1,67 @@
+@namespace "education";
+
+:import {
+    -st-from: "../../project.st.css";
+    -st-named: color-text, title, titleUnderline, content, color-link;
+}
+
+.root {
+    color: value(color-text);
+    grid-column: 1 / -1;
+}
+
+.subject {
+
+}
+
+.university {
+    
+}
+
+.contentEdu {
+}
+
+.eduItem {
+    display: grid;
+    grid-template-columns: 1fr .8fr;
+    margin-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.contentEdu > :not(:last-child) {
+    /* margin-bottom: 2.5rem; */
+    border-bottom: 2px dashed value(color-link);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.block > h4 {
+    font-size: 2.2rem;
+}
+
+.block > h5 {
+    font-size: 1.8rem;
+}
+
+.paper {
+    padding: 1rem 1rem;
+    color: value(color-text) !important;
+}
+
+.paper > :not(:last-child) {
+    margin-bottom: .5rem;
+}
+
+.blockItem1 {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+}
+
+.blockItem {
+    display: grid;
+    grid-template-columns: 3rem 1fr 1fr;
+}

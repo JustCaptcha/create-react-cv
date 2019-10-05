@@ -1,0 +1,16 @@
+/* @font-face {
+    font-family: "AcreMedium";
+    src: url('./static/fonts/Jonathan Ball - Acre-Medium.ttf');
+} */
+
+:global(body) {
+  margin: 0;
+  padding: 0;
+  /* font-family: "AcreMedium", Arial, Helvetica, sans-serif; */
+  box-sizing: inherit;
+}
+
+:global(html) {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
