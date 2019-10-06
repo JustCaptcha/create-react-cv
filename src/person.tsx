@@ -136,6 +136,20 @@ export const person = {
       // add more if you want
    ],
 
+   projects: [
+      {
+         title: 'Project - 1',
+         url: '#',
+         description: 'Project description'
+      },
+      {
+         title: 'Project - 2',
+         url: '#',
+         description: 'Project description'
+      },
+      // add more if you want
+   ],
+
    education: [
       {
          university: 'University of Phoenix',

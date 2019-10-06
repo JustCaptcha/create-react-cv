@@ -9,6 +9,7 @@ import { Languages } from '../components/languages/languages';
 import { Education } from '../components/education/education';
 import { Certificates } from '../components/certifc/certificates';
 import { ILove } from '../components/ilove/ilove';
+import { Projects } from '../components/projects/projects';
 
 const Main: React.FunctionComponent = (props) => {
     return (
@@ -19,6 +20,7 @@ const Main: React.FunctionComponent = (props) => {
                 <Block>
                     <Experience />
                     <Education />
+                    <Projects />
                     <Certificates />
                 </Block>
                 <Block>

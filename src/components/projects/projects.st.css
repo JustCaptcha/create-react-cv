@@ -1,0 +1,19 @@
+@namespace "projects";
+
+:import {
+    -st-from: "../../project.st.css";
+    -st-named: color-text, color-link;
+}
+
+.root {
+    color: value(color-text);
+}
+
+.projects > :not(:last-child) {
+    padding-bottom: 2.5rem;
+    border-bottom: 2px dashed value(color-link);
+}
+
+.project {
+    margin-top: 2.5rem;
+}
