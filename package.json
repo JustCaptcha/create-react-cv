@@ -21,7 +21,7 @@
     "object-assign": "^4.1.1",
     "puppeteer": "^1.20.0",
     "react": "^16.10.1",
-    "react-dev-utils": "^9.0.4",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.10.1",
     "react-feather": "^2.0.3",
     "react-navi": "^0.13.6",
